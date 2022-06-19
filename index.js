@@ -1,3 +1,6 @@
 points = 0
 
-console.log(points + 15)
+function button() {
+    points++
+    console.log(points)
+}
